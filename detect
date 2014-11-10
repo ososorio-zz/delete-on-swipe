@@ -1,0 +1,8 @@
+$.ajax({ 
+    url: "https://ajaxhttpheaders.appspot.com", 
+    dataType: 'jsonp', 
+    success: function(headers) {
+        language = headers['Accept-Language'];
+        $("#lang").html(language.substr(0, 5));
+	}
+});
