@@ -1,0 +1,1 @@
+Delete rows/records when user swipe to right direction! usable on mobile and desktop
